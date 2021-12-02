@@ -41,8 +41,10 @@
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_CustomerRegistration1 = new WindowsFormsApplication1.All_User_Control.UC_CustomerRegistration();
             this.uC_Addroom1 = new WindowsFormsApplication1.All_User_Control.UC_Addroom();
+            this.uC_CustomerCheckOut1 = new WindowsFormsApplication1.All_User_Control.UC_CustomerCheckOut();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -63,10 +65,12 @@
             // btnEmployee
             // 
             this.btnEmployee.BorderRadius = 25;
+            this.btnEmployee.BorderThickness = 1;
             this.btnEmployee.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnEmployee.CheckedState.ForeColor = System.Drawing.Color.MidnightBlue;
             this.btnEmployee.CheckedState.Parent = this.btnEmployee;
             this.btnEmployee.CustomImages.Parent = this.btnEmployee;
+            this.btnEmployee.DisabledState.Parent = this.btnEmployee;
             this.btnEmployee.FillColor = System.Drawing.Color.MidnightBlue;
             this.btnEmployee.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmployee.ForeColor = System.Drawing.Color.White;
@@ -81,12 +85,15 @@
             // btnCustomerRegistration
             // 
             this.btnCustomerRegistration.BorderRadius = 25;
+            this.btnCustomerRegistration.BorderThickness = 1;
+            this.btnCustomerRegistration.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnCustomerRegistration.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnCustomerRegistration.CheckedState.ForeColor = System.Drawing.Color.MidnightBlue;
             this.btnCustomerRegistration.CheckedState.Parent = this.btnCustomerRegistration;
             this.btnCustomerRegistration.CustomImages.Parent = this.btnCustomerRegistration;
+            this.btnCustomerRegistration.DisabledState.Parent = this.btnCustomerRegistration;
             this.btnCustomerRegistration.FillColor = System.Drawing.Color.MidnightBlue;
-            this.btnCustomerRegistration.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomerRegistration.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold);
             this.btnCustomerRegistration.ForeColor = System.Drawing.Color.White;
             this.btnCustomerRegistration.HoverState.Parent = this.btnCustomerRegistration;
             this.btnCustomerRegistration.Location = new System.Drawing.Point(20, 125);
@@ -100,12 +107,15 @@
             // btnCheckOut
             // 
             this.btnCheckOut.BorderRadius = 25;
+            this.btnCheckOut.BorderThickness = 1;
+            this.btnCheckOut.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnCheckOut.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnCheckOut.CheckedState.ForeColor = System.Drawing.Color.MidnightBlue;
             this.btnCheckOut.CheckedState.Parent = this.btnCheckOut;
             this.btnCheckOut.CustomImages.Parent = this.btnCheckOut;
+            this.btnCheckOut.DisabledState.Parent = this.btnCheckOut;
             this.btnCheckOut.FillColor = System.Drawing.Color.MidnightBlue;
-            this.btnCheckOut.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCheckOut.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold);
             this.btnCheckOut.ForeColor = System.Drawing.Color.White;
             this.btnCheckOut.HoverState.Parent = this.btnCheckOut;
             this.btnCheckOut.Location = new System.Drawing.Point(20, 225);
@@ -119,12 +129,15 @@
             // btnCustomerDetails
             // 
             this.btnCustomerDetails.BorderRadius = 25;
+            this.btnCustomerDetails.BorderThickness = 1;
+            this.btnCustomerDetails.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnCustomerDetails.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnCustomerDetails.CheckedState.ForeColor = System.Drawing.Color.MidnightBlue;
             this.btnCustomerDetails.CheckedState.Parent = this.btnCustomerDetails;
             this.btnCustomerDetails.CustomImages.Parent = this.btnCustomerDetails;
+            this.btnCustomerDetails.DisabledState.Parent = this.btnCustomerDetails;
             this.btnCustomerDetails.FillColor = System.Drawing.Color.MidnightBlue;
-            this.btnCustomerDetails.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomerDetails.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold);
             this.btnCustomerDetails.ForeColor = System.Drawing.Color.White;
             this.btnCustomerDetails.HoverState.Parent = this.btnCustomerDetails;
             this.btnCustomerDetails.Location = new System.Drawing.Point(20, 328);
@@ -137,12 +150,15 @@
             // btnAddRoom
             // 
             this.btnAddRoom.BorderRadius = 25;
+            this.btnAddRoom.BorderThickness = 1;
+            this.btnAddRoom.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnAddRoom.CheckedState.FillColor = System.Drawing.Color.White;
             this.btnAddRoom.CheckedState.ForeColor = System.Drawing.Color.MidnightBlue;
             this.btnAddRoom.CheckedState.Parent = this.btnAddRoom;
             this.btnAddRoom.CustomImages.Parent = this.btnAddRoom;
+            this.btnAddRoom.DisabledState.Parent = this.btnAddRoom;
             this.btnAddRoom.FillColor = System.Drawing.Color.MidnightBlue;
-            this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold);
             this.btnAddRoom.ForeColor = System.Drawing.Color.White;
             this.btnAddRoom.HoverState.Parent = this.btnAddRoom;
             this.btnAddRoom.Location = new System.Drawing.Point(20, 22);
@@ -156,6 +172,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.uC_CustomerCheckOut1);
             this.panel2.Controls.Add(this.uC_CustomerRegistration1);
             this.panel2.Controls.Add(this.uC_Addroom1);
             this.panel2.Location = new System.Drawing.Point(359, 110);
@@ -168,6 +185,7 @@
             // 
             this.btnExit.CheckedState.Parent = this.btnExit;
             this.btnExit.CustomImages.Parent = this.btnExit;
+            this.btnExit.DisabledState.Parent = this.btnExit;
             this.btnExit.FillColor = System.Drawing.Color.Empty;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnExit.ForeColor = System.Drawing.Color.White;
@@ -186,6 +204,7 @@
             // 
             this.guna2CircleButton2.CheckedState.Parent = this.guna2CircleButton2;
             this.guna2CircleButton2.CustomImages.Parent = this.guna2CircleButton2;
+            this.guna2CircleButton2.DisabledState.Parent = this.guna2CircleButton2;
             this.guna2CircleButton2.FillColor = System.Drawing.Color.Empty;
             this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
@@ -210,23 +229,33 @@
             this.guna2Elipse2.BorderRadius = 30;
             this.guna2Elipse2.TargetControl = this;
             // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.BorderRadius = 30;
+            // 
             // uC_CustomerRegistration1
             // 
             this.uC_CustomerRegistration1.BackColor = System.Drawing.Color.White;
-            this.uC_CustomerRegistration1.Location = new System.Drawing.Point(14, 3);
+            this.uC_CustomerRegistration1.Location = new System.Drawing.Point(22, 35);
             this.uC_CustomerRegistration1.Name = "uC_CustomerRegistration1";
-            this.uC_CustomerRegistration1.Size = new System.Drawing.Size(1042, 440);
+            this.uC_CustomerRegistration1.Size = new System.Drawing.Size(1000, 450);
             this.uC_CustomerRegistration1.TabIndex = 1;
-            this.uC_CustomerRegistration1.Visible = false;
             // 
             // uC_Addroom1
             // 
             this.uC_Addroom1.BackColor = System.Drawing.Color.White;
-            this.uC_Addroom1.Location = new System.Drawing.Point(14, 3);
+            this.uC_Addroom1.Location = new System.Drawing.Point(22, 35);
             this.uC_Addroom1.Name = "uC_Addroom1";
-            this.uC_Addroom1.Size = new System.Drawing.Size(1042, 440);
+            this.uC_Addroom1.Size = new System.Drawing.Size(1000, 450);
             this.uC_Addroom1.TabIndex = 0;
-            this.uC_Addroom1.Visible = false;
+            // 
+            // uC_CustomerCheckOut1
+            // 
+            this.uC_CustomerCheckOut1.BackColor = System.Drawing.Color.White;
+            this.uC_CustomerCheckOut1.Location = new System.Drawing.Point(22, 22);
+            this.uC_CustomerCheckOut1.Name = "uC_CustomerCheckOut1";
+            this.uC_CustomerCheckOut1.Size = new System.Drawing.Size(1062, 524);
+            this.uC_CustomerCheckOut1.TabIndex = 2;
             // 
             // Dashboard
             // 
@@ -260,8 +289,10 @@
         private Guna.UI2.WinForms.Guna2Button btnCheckOut;
         private Guna.UI2.WinForms.Guna2Button btnCustomerDetails;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private All_User_Control.UC_CustomerRegistration uC_CustomerRegistration1;
         private All_User_Control.UC_Addroom uC_Addroom1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private All_User_Control.UC_CustomerRegistration uC_CustomerRegistration1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
+        private All_User_Control.UC_CustomerCheckOut uC_CustomerCheckOut1;
     }
 }

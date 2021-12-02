@@ -36,13 +36,14 @@ namespace WindowsFormsApplication1
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            uC_CustomerRegistration1.Visible = true;
+            uC_CustomerRegistration1.Visible=true;
             uC_CustomerRegistration1.BringToFront();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-
+            uC_CustomerCheckOut1.Visible=true;
+            uC_CustomerCheckOut1.BringToFront();
         }
 
         private void guna2CircleButton2_Click(object sender, EventArgs e)
@@ -51,6 +52,11 @@ namespace WindowsFormsApplication1
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void uC_Addroom1_Load(object sender, EventArgs e)
         {
 
         }
