@@ -72,6 +72,7 @@
             this.label1.Size = new System.Drawing.Size(410, 40);
             this.label1.TabIndex = 1;
             this.label1.Text = "Customer Registration";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -150,8 +151,10 @@
             // 
             // txtDob
             // 
+            this.txtDob.Checked = true;
             this.txtDob.CheckedState.Parent = this.txtDob;
             this.txtDob.FillColor = System.Drawing.Color.White;
+            this.txtDob.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtDob.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.txtDob.HoverState.Parent = this.txtDob;
             this.txtDob.Location = new System.Drawing.Point(34, 366);
@@ -264,8 +267,10 @@
             // 
             // txtCheckIn
             // 
+            this.txtCheckIn.Checked = true;
             this.txtCheckIn.CheckedState.Parent = this.txtCheckIn;
             this.txtCheckIn.FillColor = System.Drawing.Color.White;
+            this.txtCheckIn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtCheckIn.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.txtCheckIn.HoverState.Parent = this.txtCheckIn;
             this.txtCheckIn.Location = new System.Drawing.Point(368, 224);
@@ -452,8 +457,9 @@
             this.btnFinish.CheckedState.ForeColor = System.Drawing.Color.White;
             this.btnFinish.CheckedState.Parent = this.btnFinish;
             this.btnFinish.CustomImages.Parent = this.btnFinish;
+            this.btnFinish.DisabledState.Parent = this.btnFinish;
             this.btnFinish.FillColor = System.Drawing.Color.White;
-            this.btnFinish.Font = new System.Drawing.Font("Segoe UI Symbol", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinish.Font = new System.Drawing.Font("Segoe UI Symbol", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnFinish.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnFinish.HoverState.Parent = this.btnFinish;
             this.btnFinish.Location = new System.Drawing.Point(783, 367);
@@ -522,6 +528,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UC_CustomerRegistration";
             this.Size = new System.Drawing.Size(1000, 450);
+            this.Load += new System.EventHandler(this.UC_CustomerRegistration_Load);
             this.Leave += new System.EventHandler(this.UC_CustomerRegistration_Leave);
             this.ResumeLayout(false);
             this.PerformLayout();

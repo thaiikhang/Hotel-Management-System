@@ -103,6 +103,16 @@ namespace WindowsFormsApplication1.All_User_Control
         {
             clearAll();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UC_CustomerRegistration_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
